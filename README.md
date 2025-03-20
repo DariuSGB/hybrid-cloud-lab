@@ -47,7 +47,7 @@ In the file 'vars.json' is stored the following information:
   ]
 }
 ```
-Just after cloning this project, it is necessary to give execution permissions in all the scripts.
+Just after cloning this project, it is necessary to give execution permissions to all the scripts.
 ```bash
 chmod +x scripts/*.sh scripts/libs/*.sh
 ```
