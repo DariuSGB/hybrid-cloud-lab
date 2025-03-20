@@ -13,10 +13,11 @@ The main goal of this repository is some external scripts to interact with our h
 - Only default (AWS/Azure) security groups will be used to update the current IP address
 
 ## How to use
+The execution of the scripts is done without arguments.
 In the file 'vars.json' is stored the following information:
 1. The resources where the instances are located (including the region in the case of AWS)
 2. The rule name used to update with the current IP address where the scripts were running
-The execution of the scripts is done without arguments
+
 ```json
 {
 	"AwsResources": [
