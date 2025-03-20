@@ -20,30 +20,34 @@ In the file 'vars.json' is stored the following information:
 
 ```json
 {
-	"AwsResources": [
-		{
-			"VpcName": "vpc_DGB",
-			"RuleName": "MyLaptop",
-			"Region": "eu-central-1"
-		}
-	],
-	"AzureResources": [
-		{
-			"ResourceGroupName": "LAB-DGB",
-			"RuleName": "MyLaptop"
-		},
-		{
-			"ResourceGroupName": "CLIENT-DGB",
-			"RuleName": "MyLaptop"
-		},
-		{
-			"ResourceGroupName": "CLIENT-DE-DGB",
-			"RuleName": "MyLaptop"
-		},
-		{
-			"ResourceGroupName": "CLIENT-NL-DGB",
-			"RuleName": "MyLaptop"
-		}
-	]
+  "AwsResources": [
+    {
+      "VpcName": "vpc_DGB",
+      "RuleName": "MyLaptop",
+      "Region": "eu-central-1"
+    }
+  ],
+  "AzureResources": [
+    {
+      "ResourceGroupName": "LAB-DGB",
+      "RuleName": "MyLaptop"
+    },
+    {
+      "ResourceGroupName": "CLIENT-DGB",
+      "RuleName": "MyLaptop"
+    },
+    {
+      "ResourceGroupName": "CLIENT-DE-DGB",
+      "RuleName": "MyLaptop"
+    },
+    {
+      "ResourceGroupName": "CLIENT-NL-DGB",
+      "RuleName": "MyLaptop"
+    }
+  ]
 }
+```
+Just after cloning this project, it is necessary to give execution permissions in all the scripts.
+```bash
+chmod +x scripts/*.sh scripts/libs/*.sh
 ```
