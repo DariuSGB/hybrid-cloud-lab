@@ -28,7 +28,7 @@ The execution of the scripts is done without arguments.
 In the file 'vars.json' are stored the variables required to run the scripts.
 1. The resources where the instances are located (including the region in the case of AWS)
 2. The security group name where the specific rule is localed
-3. The rule name used to update with the current IP address where the scripts were running
+3. The rule name used to update with the current IP address where the scripts are running
 
 ```json
 {
