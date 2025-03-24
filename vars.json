@@ -1,0 +1,32 @@
+{
+  "AwsResources": [
+    {
+      "VpcName": "vpc_DGB",
+      "SgName": "default",
+      "RuleName": "MyLaptop",
+      "Region": "eu-central-1"
+    }
+  ],
+  "AzureResources": [
+    {
+      "ResourceGroupName": "LAB-DGB",
+      "NsgName": "nsg-DGB",
+      "RuleName": "MyLaptop"
+    },
+    {
+      "ResourceGroupName": "CLIENT-DGB",
+      "NsgName": "nsg-client-DGB",
+      "RuleName": "MyLaptop"
+    },
+    {
+      "ResourceGroupName": "CLIENT-DE-DGB",
+      "NsgName": "nsg-client-de-DGB",
+      "RuleName": "MyLaptop"
+    },
+    {
+      "ResourceGroupName": "CLIENT-NL-DGB",
+      "NsgName": "nsg-client-nl-DGB",
+      "RuleName": "MyLaptop"
+    }
+  ]
+}
