@@ -1,11 +1,11 @@
 # Hybrid-Cloud-Lab
 This is a suite of scripts to interact with our Hybrid-Cloud lab.
 Next are some of the actions available:
-- start instances on AWS/Azure
-- stop instances on AWS/Azure
-- check the status of the instances
-- update our local public IP in the security groups
-- check the public IP configured in the security groups
+- Start instances on AWS/Azure
+- Stop instances on AWS/Azure
+- Check the status of the instances
+- Update our local public IP in the security groups
+- Check the public IP configured in the security groups
 
 ## Requirements
 - Requires to have a client with any kind of Linux distribution
